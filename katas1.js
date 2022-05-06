@@ -9,131 +9,131 @@ function oneThroughTwenty(numeros) {
 
 }console.log(oneThroughTwenty(20))
 
-// //call function oneThroughTwenty
+//call function oneThroughTwenty
 
-// function evensToTwenty(numerosPares) {
+function evensToTwenty(numerosPares) {
     
-//   let recebeNumerosPares = []
-//   for(let cont = 1; cont <= numerosPares; cont++){
+  let recebeNumerosPares = []
+  for(let cont = 1; cont <= numerosPares; cont++){
 
-//     if(cont % 2 == 0){
-//       recebeNumerosPares.push(cont)
-//     }
-//   }
+    if(cont % 2 == 0){
+      recebeNumerosPares.push(cont)
+    }
+  }
 
-//   return recebeNumerosPares
+  return recebeNumerosPares
 
-// }console.log(evensToTwenty(20))
+}console.log(evensToTwenty(20))
 
-// //call function evensToTwenty
+//call function evensToTwenty
 
-// function oddsToTwenty(numerosImpares) {
+function oddsToTwenty(numerosImpares) {
     
-//   let recebeNumerosImpares = []
-//   for(let cont = 1; cont <= numerosImpares; cont++){
+  let recebeNumerosImpares = []
+  for(let cont = 1; cont <= numerosImpares; cont++){
 
-//     if(cont % 2 == 1){
-//       recebeNumerosImpares.push(cont)
-//     }
-//   }
+    if(cont % 2 == 1){
+      recebeNumerosImpares.push(cont)
+    }
+  }
 
-//   return recebeNumerosImpares
+  return recebeNumerosImpares
 
-// }console.log(oddsToTwenty(20))
+}console.log(oddsToTwenty(20))
 
-// //call function oddsToTwenty
+//call function oddsToTwenty
 
-// function multiplesOfFive(numerosMultiplos) {
+function multiplesOfFive(numerosMultiplos) {
   
-//   let recebeNumeros = []
-//   for(let i = 5; i <= numerosMultiplos; i += 5){
-//     recebeNumeros.push(i)
-//   }
+  let recebeNumeros = []
+  for(let i = 5; i <= numerosMultiplos; i += 5){
+    recebeNumeros.push(i)
+  }
 
-//   return recebeNumeros
+  return recebeNumeros
 
-// }console.log(multiplesOfFive(100))
+}console.log(multiplesOfFive(100))
 
-// //call function multiplesOfFive
+//call function multiplesOfFive
 
-// function squareNumbers(numerosQuadrados) {
+function squareNumbers(numerosQuadrados) {
   
-//   let recebeNumeros = []
-//   for(let cont = 1; cont <= numerosQuadrados; cont++){
-//     recebeNumeros.push(cont ** 2)
-//   }
+  let recebeNumeros = []
+  for(let cont = 1; cont <= numerosQuadrados; cont++){
+    recebeNumeros.push(cont ** 2)
+  }
 
-//  return recebeNumeros
+ return recebeNumeros
     
-// }console.log(squareNumbers(10))
+}console.log(squareNumbers(10))
 
-// //call function squareNumbers
+//call function squareNumbers
 
-// function countingBackwards(numerosContrarios) {
+function countingBackwards(numerosContrarios) {
   
-//   let recebeNumeros = []
-//   for(let i = numerosContrarios; i > 0; i--){
-//     recebeNumeros.push(i)
-//   }
+  let recebeNumeros = []
+  for(let i = numerosContrarios; i > 0; i--){
+    recebeNumeros.push(i)
+  }
 
-//   return recebeNumeros
+  return recebeNumeros
 
-// }console.log(countingBackwards(20))
+}console.log(countingBackwards(20))
 
-// //call function countingBackwards
+//call function countingBackwards
 
-// function evenNumbersBackwards(numerosPares) {
+function evenNumbersBackwards(numerosPares) {
   
-//   let recebeNumerosPares = []
-//   for(let i = numerosPares; i > 0; i--){
-//     if(i % 2 == 0){
-//       recebeNumerosPares.push(i)
-//     }
-//   }
+  let recebeNumerosPares = []
+  for(let i = numerosPares; i > 0; i--){
+    if(i % 2 == 0){
+      recebeNumerosPares.push(i)
+    }
+  }
 
-//   return recebeNumerosPares
+  return recebeNumerosPares
   
-// }console.log(evenNumbersBackwards(20))
+}console.log(evenNumbersBackwards(20))
 
-// //call function evenNumbersBackwards
+//call function evenNumbersBackwards
 
-// function oddNumbersBackwards(numerosImpares) {
+function oddNumbersBackwards(numerosImpares) {
   
-//   let recebeNumerosImpares = []
-//   for(let i = numerosImpares; i > 0; i--){
-//     if(i % 2 == 1){
-//       recebeNumerosImpares.push(i)
-//     }
-//   }
+  let recebeNumerosImpares = []
+  for(let i = numerosImpares; i > 0; i--){
+    if(i % 2 == 1){
+      recebeNumerosImpares.push(i)
+    }
+  }
   
-//   return recebeNumerosImpares
+  return recebeNumerosImpares
 
-// }console.log(oddNumbersBackwards(20))
+}console.log(oddNumbersBackwards(20))
 
-// //call function oddNumbersBackwards
+//call function oddNumbersBackwards
 
-// function multiplesOfFiveBackwards(numerosMultiplos) {
+function multiplesOfFiveBackwards(numerosMultiplos) {
     
-//   let recebeNumeros = []
-//   for(let cont = numerosMultiplos; cont > 0; cont -= 5){
-//     recebeNumeros.push(cont)
-//   }
+  let recebeNumeros = []
+  for(let cont = numerosMultiplos; cont > 0; cont -= 5){
+    recebeNumeros.push(cont)
+  }
 
-//   return recebeNumeros
+  return recebeNumeros
 
-// }console.log(multiplesOfFiveBackwards(100))
+}console.log(multiplesOfFiveBackwards(100))
 
-// //call function multiplesOfFiveBackwards
+//call function multiplesOfFiveBackwards
 
-// function squareNumbersBackwards(numerosQuadrados) {
+function squareNumbersBackwards(numerosQuadrados) {
   
-//   let recebeNumeros = []
-//   for(let i = numerosQuadrados; i > 0; i--){
-//     recebeNumeros.push(i ** 2)
-//   }
+  let recebeNumeros = []
+  for(let i = numerosQuadrados; i > 0; i--){
+    recebeNumeros.push(i ** 2)
+  }
  
-//   return recebeNumeros
+  return recebeNumeros
 
-// }console.log(squareNumbersBackwards(10))
+}console.log(squareNumbersBackwards(10))
 
-// //call function squareNumbersBackwards
+//call function squareNumbersBackwards
